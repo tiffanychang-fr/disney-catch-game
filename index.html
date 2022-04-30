@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Catch Disney</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch Disney</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Who is your favorite disney character?</h1>
+      <ul class="disney-list">
+        <li>
+          <button class="choose-disney-btn">
+            <p>Mickey</p>
+            <img
+              src="http://pngimg.com/uploads/mickey_mouse/mickey_mouse_PNG81.png"
+              alt="mickey"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-disney-btn">
+            <p>Pluto</p>
+            <img
+              src="http://pngimg.com/uploads/pluto_disney/pluto_disney_PNG12.png"
+              alt="pluto"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-disney-btn">
+            <p>Daisy</p>
+            <img
+              src="http://pngimg.com/uploads/donald_duck/donald_duck_PNG20.png"
+              alt="daisy"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-disney-btn">
+            <p>Donald</p>
+            <img
+              src="http://pngimg.com/uploads/donald_duck/donald_duck_PNG21.png"
+              alt="donald"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Disney has unlimitied magic !<br />Try to catch all is impossible ;)
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
